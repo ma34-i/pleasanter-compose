@@ -1,0 +1,13 @@
+{
+    "Dbms": "PostgreSQL",
+    "Provider": "Local",
+    "TimeZoneInfo": "Asia/Tokyo",
+    "SaConnectionString": "Server=pleasanter-db;Database=postgres;UID=postgres;PWD=password",
+    "OwnerConnectionString": "Server=pleasanter-db;Database=#ServiceName#;UID=#ServiceName#_Owner;PWD=SetAdminsPWD",
+    "UserConnectionString": "Server=pleasanter-db;Database=#ServiceName#;UID=#ServiceName#_User;PWD=SetUsersPWD",
+    "SqlCommandTimeOut": 0,
+    "MinimumTime": 3,
+    "DeadlockRetryCount": 4,
+    "DeadlockRetryInterval": 1000,
+    "DisableIndexChangeDetection": false
+}
